@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - BulletPlayer
   - HazardToP1
+  - HazardToP2
+  - BulletPlayer2
   layers:
   - Default
   - TransparentFX
@@ -23,11 +25,11 @@ TagManager:
   - Wall
   - BulletPlayer
   - Enemy
-  - 
-  - 
-  - 
-  - 
-  - 
+  - HazardToP1
+  - HazardToP2
+  - BypassToP1
+  - BypassToP2
+  - BulletPlayer2
   - 
   - 
   - 

@@ -19,6 +19,6 @@ public class BulletDamageHandler : MonoBehaviour {
 	}
 
 	void Destroyed(){
-		Destroy (gameObject);
+		Destroy (gameObject,0.1f);
 	}
 }

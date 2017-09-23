@@ -9,10 +9,8 @@ public class PlayerBullet : MonoBehaviour {
 	public int health = 1;
 
 	void OnTriggerEnter2D(Collider2D col){
-		if (!(col.CompareTag ("Wall"))) {
-			Debug.Log("tes");
-			health--;	
-		}
+		Debug.Log("tes");
+		health--;	
 	}
 
 	void Update(){
@@ -22,7 +20,7 @@ public class PlayerBullet : MonoBehaviour {
 	}
 
 	void Destroyed(){
-		Destroy (gameObject);
+		Destroy (gameObject, 0.1f);
 	}
 
 	void FixedUpdate () {
