@@ -150,4 +150,5 @@ MonoBehaviour:
   velocityMultiplier: 1
   speedX: 5
   speedY: -5
-  meteor: {fileID: 1661871791444026, guid: 306f3023f3c1f634aa52503633f42352, type: 2}
+  meteor: {fileID: 1459971920046746, guid: 34be1d28a9d8fef4a80f5835135b5ec9, type: 2}
+  fastest: 0

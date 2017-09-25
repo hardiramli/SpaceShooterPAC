@@ -10,6 +10,8 @@ public class HazardBehavior : MonoBehaviour {
 	public float speedX;
 	public float speedY;
 	public GameObject meteor;
+	public bool fastest;
+	private bool alreadyChanged = false;
 
 	void Start() {
 		rb2D = GetComponent<Rigidbody2D>();
@@ -33,15 +35,34 @@ public class HazardBehavior : MonoBehaviour {
 		//rb2D.MovePosition(rb2D.position + velocity * Time.fixedDeltaTime);
 	}
 
+	void Destroyed(){
+		Destroy (gameObject);
+		Debug.Log("ded");
+	}
+
+	void ChangeDirection(){
+		if (!alreadyChanged) {
+			Instantiate (meteor, this.transform.position, this.transform.rotation);
+			alreadyChanged = true;
+		}
+	}
+
 	void OnTriggerEnter2D(Collider2D col){
-		if (!(col.CompareTag ("Wall"))) {
-			if (col.CompareTag ("BulletPlayer")){
-				Instantiate (meteor, this.transform.position, this.transform.rotation);
-				Destroy (gameObject);
+		if (!fastest) {
+			if (col.CompareTag ("BulletPlayer")) {
+				ChangeDirection ();
+				Destroyed ();
+			} else
+			if (col.CompareTag ("BulletPlayer2")) {
+				ChangeDirection ();
+				Destroyed ();
 			}
-			if (col.CompareTag ("BulletPlayer2")){
-				Instantiate (meteor, this.transform.position, this.transform.rotation);
-				Destroy (gameObject);
+		} else if(fastest) {
+			if (col.CompareTag ("BulletPlayer")) {
+				Destroyed ();
+			} else
+			if (col.CompareTag ("BulletPlayer2")) {
+				Destroyed ();
 			}
 		}
 	}

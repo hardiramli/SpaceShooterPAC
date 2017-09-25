@@ -20,7 +20,7 @@ public class PlayerBullet : MonoBehaviour {
 	}
 
 	void Destroyed(){
-		Destroy (gameObject, 0.1f);
+		Destroy (gameObject);
 	}
 
 	void FixedUpdate () {

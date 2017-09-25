@@ -437,7 +437,7 @@ Transform:
   m_Children:
   - {fileID: 1718657544}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &46590793
 MonoBehaviour:
@@ -635,7 +635,7 @@ Transform:
   m_LocalScale: {x: 20, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &115190799
 GameObject:
@@ -734,7 +734,7 @@ Transform:
   m_Children:
   - {fileID: 444228545}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &115190804
 MonoBehaviour:
@@ -829,7 +829,7 @@ Transform:
   - {fileID: 1253128484}
   - {fileID: 1907452630}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &423874908
 GameObject:
@@ -964,7 +964,7 @@ Transform:
   m_LocalScale: {x: 20, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &444228544
 GameObject:
@@ -1505,48 +1505,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1253128483}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1484608023
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4687081663027280, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 6.5201173
-      objectReference: {fileID: 0}
-    - target: {fileID: 4687081663027280, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.7091901
-      objectReference: {fileID: 0}
-    - target: {fileID: 4687081663027280, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 6.6698413
-      objectReference: {fileID: 0}
-    - target: {fileID: 4687081663027280, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4687081663027280, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4687081663027280, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4687081663027280, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4687081663027280, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1560819356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,7 +1535,7 @@ Transform:
   - {fileID: 10033703}
   - {fileID: 41808661}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1666601080
 GameObject:
@@ -1673,7 +1631,7 @@ Transform:
   m_LocalScale: {x: 20, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1666601085
 Rigidbody2D:
@@ -1930,11 +1888,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1785707052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.78, y: 2.19, z: 0}
+  m_LocalPosition: {x: 4.12, y: -2.32, z: 0}
   m_LocalScale: {x: 1.1263112, y: 0.49475312, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1785707058
 BoxCollider2D:
@@ -1973,6 +1931,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+  hazardtoP1: {fileID: 1661871791444026, guid: 306f3023f3c1f634aa52503633f42352, type: 2}
+  hazardtoP2: {fileID: 1639450944692950, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
+  special: 1
 --- !u!1 &1907452629
 GameObject:
   m_ObjectHideFlags: 0
