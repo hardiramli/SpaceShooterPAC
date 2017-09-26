@@ -14,6 +14,9 @@ public class EnemyBehavior : MonoBehaviour {
 			Debug.Log("tes");
 			health--;	
 		}
+		if (col.CompareTag("Destroyer")){
+			Destroyed ();
+		}
 	}
 
 	//TODO create if destroyed gain energy

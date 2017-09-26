@@ -10,6 +10,7 @@ TagManager:
   - HazardToP1
   - HazardToP2
   - BulletPlayer2
+  - Destroyer
   layers:
   - Default
   - TransparentFX

@@ -1007,7 +1007,7 @@ GameObject:
   - component: {fileID: 560417200}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: Untagged
+  m_TagString: Destroyer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1423,7 +1423,7 @@ GameObject:
   - component: {fileID: 1253128485}
   m_Layer: 0
   m_Name: Left
-  m_TagString: Untagged
+  m_TagString: Destroyer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1694,7 +1694,7 @@ GameObject:
   - component: {fileID: 1752302954}
   m_Layer: 0
   m_Name: Top
-  m_TagString: Untagged
+  m_TagString: Destroyer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1787,6 +1787,7 @@ GameObject:
   - component: {fileID: 1785707056}
   - component: {fileID: 1785707055}
   - component: {fileID: 1785707054}
+  - component: {fileID: 1785707060}
   - component: {fileID: 1785707059}
   - component: {fileID: 1785707053}
   - component: {fileID: 1785707058}
@@ -1888,7 +1889,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1785707052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.12, y: -2.32, z: 0}
+  m_LocalPosition: {x: 10.48, y: -2.37, z: 0}
   m_LocalScale: {x: 1.1263112, y: 0.49475312, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1934,6 +1935,18 @@ MonoBehaviour:
   hazardtoP1: {fileID: 1661871791444026, guid: 306f3023f3c1f634aa52503633f42352, type: 2}
   hazardtoP2: {fileID: 1639450944692950, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
   special: 1
+--- !u!114 &1785707060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785707052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a940561ff36d7241b75ac9bd8ff98ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpd: 5
 --- !u!1 &1907452629
 GameObject:
   m_ObjectHideFlags: 0
