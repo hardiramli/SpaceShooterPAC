@@ -18,6 +18,7 @@ public class EnemyMovement : MonoBehaviour {
 		//Horizontal movement of ship
 		pos.x -= maxSpd * Time.deltaTime;
 
+
 		//Change position
 		transform.position = pos;
 
