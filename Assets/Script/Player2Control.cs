@@ -9,12 +9,15 @@ public class Player2Control : MonoBehaviour {
 	public Transform shotSpawn;
 	public float fireRate;
 	public float stunDuration;
+	public bool nudged;
 	public bool stunned;
+	public Rigidbody2D rb2d;
 
 	public int health = 1;
 
 	private float nextFire;
 	private float stunTime;
+	private float nudgeTime;
 
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -41,10 +44,17 @@ public class Player2Control : MonoBehaviour {
 				health--;	
 			}
 			if (col.CompareTag ("Enemy")){
+				NudgeShip ();
 				stunned = true;
+				nudged = true;
 				stunTime = Time.time + stunDuration;
+				nudgeTime = Time.time + 0.1f;
 			}
 		}
+	}
+
+	void NudgeShip(){
+		rb2d.AddForce (new Vector2(-50f,20f));
 	}
 
 	// Destroy game	
@@ -57,15 +67,21 @@ public class Player2Control : MonoBehaviour {
 		if (Input.GetButton ("Shoot_P2") && Time.time > nextFire) {
 			Debug.Log ("schut");
 			nextFire = Time.time + fireRate;
-			Instantiate (shot, shotSpawn.position, shotSpawn.rotation);
+			Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
 		}
 
-		if (stunned && Time.time > stunTime) {
-			stunned = false;
+		if (stunned) {
+			if (Time.time > stunTime) {
+				stunned = false;
+			}
+			if (Time.time > nudgeTime) {
+				nudged = false;
+				rb2d.velocity = Vector2.zero;
+			}
 		}
 
 		if (health <= 0) {
-			Destroyed ();
+			Destroyed();
 		}
 	}
 }
