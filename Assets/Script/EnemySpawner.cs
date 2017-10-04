@@ -16,9 +16,10 @@ public class EnemySpawner : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (timeLeft == 0) {
-			timeLeft = spawnTime;
+		if (timeLeft <= 0) {
 			CreateFleet ();
+			timeLeft = spawnTime;
+			Debug.Log("spawn enemy");
 		}
 		timeLeft -= Time.deltaTime;
 	}
