@@ -1070,7 +1070,7 @@ MonoBehaviour:
   fleet:
   - {fileID: 1549809484870850, guid: fc66b7b749203b745a5ac8261e97fd9b, type: 2}
   - {fileID: 1732816371222186, guid: 8159420f0ae8da24c89437874066d1af, type: 2}
-  spawnTime: 4
+  spawnTime: 7
 --- !u!4 &549715314
 Transform:
   m_ObjectHideFlags: 0
@@ -1573,7 +1573,7 @@ MonoBehaviour:
   fleet:
   - {fileID: 1549809484870850, guid: fc66b7b749203b745a5ac8261e97fd9b, type: 2}
   - {fileID: 1732816371222186, guid: 8159420f0ae8da24c89437874066d1af, type: 2}
-  spawnTime: 4
+  spawnTime: 7
 --- !u!4 &1137108532
 Transform:
   m_ObjectHideFlags: 0

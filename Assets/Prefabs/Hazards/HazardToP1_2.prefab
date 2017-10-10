@@ -40,7 +40,7 @@ Transform:
   m_GameObject: {fileID: 1459971920046746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.5695004, y: -1.6977589, z: 6.6698413}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -148,7 +148,7 @@ MonoBehaviour:
   ballMaxSpeed: {x: 20, y: 10}
   rb2D: {fileID: 50669239752471064}
   velocityMultiplier: 1
-  speedX: 10
-  speedY: -10
+  speedX: 7
+  speedY: -7
   meteor: {fileID: 1954159993332848, guid: c6c6e243f25ec8d44a44a79aed7d6aee, type: 2}
   fastest: 0

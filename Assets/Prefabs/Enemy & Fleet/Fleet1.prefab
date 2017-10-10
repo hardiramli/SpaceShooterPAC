@@ -642,7 +642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a940561ff36d7241b75ac9bd8ff98ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpd: 5
+  maxSpd: 4
 --- !u!114 &114638819745044928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -654,7 +654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b6279653c238e749b8c5728be9e5ac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 3
   hazardtoP1: {fileID: 1661871791444026, guid: 306f3023f3c1f634aa52503633f42352, type: 2}
   hazardtoP2: {fileID: 1639450944692950, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
   special: 0
@@ -669,7 +669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a940561ff36d7241b75ac9bd8ff98ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpd: 5
+  maxSpd: 4
 --- !u!114 &114754020441375070
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -681,7 +681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b6279653c238e749b8c5728be9e5ac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 3
   hazardtoP1: {fileID: 1661871791444026, guid: 306f3023f3c1f634aa52503633f42352, type: 2}
   hazardtoP2: {fileID: 1639450944692950, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
   special: 0
@@ -696,7 +696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a940561ff36d7241b75ac9bd8ff98ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpd: 5
+  maxSpd: 4
 --- !u!114 &114915789322208426
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -708,7 +708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b6279653c238e749b8c5728be9e5ac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 3
   hazardtoP1: {fileID: 1661871791444026, guid: 306f3023f3c1f634aa52503633f42352, type: 2}
   hazardtoP2: {fileID: 1639450944692950, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
   special: 1
@@ -723,7 +723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a940561ff36d7241b75ac9bd8ff98ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpd: 5
+  maxSpd: 4
 --- !u!114 &114983958732649686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -735,7 +735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b6279653c238e749b8c5728be9e5ac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 3
   hazardtoP1: {fileID: 1661871791444026, guid: 306f3023f3c1f634aa52503633f42352, type: 2}
   hazardtoP2: {fileID: 1639450944692950, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
   special: 0
