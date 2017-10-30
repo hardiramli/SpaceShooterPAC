@@ -85,7 +85,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4991372226948754}
-  - component: {fileID: 114140750719847742}
   m_Layer: 0
   m_Name: Fleet1
   m_TagString: Untagged
@@ -620,17 +619,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0488143, y: 1.1852093}
   m_EdgeRadius: 0
---- !u!114 &114140750719847742
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1732816371222186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0153a4866771caa4c92490e085978258, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114460764259458624
 MonoBehaviour:
   m_ObjectHideFlags: 1

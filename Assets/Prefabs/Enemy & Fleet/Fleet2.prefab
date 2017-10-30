@@ -63,7 +63,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4950193554988854}
-  - component: {fileID: 114878687927959772}
   m_Layer: 0
   m_Name: Fleet2
   m_TagString: Untagged
@@ -716,17 +715,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpd: 4
---- !u!114 &114878687927959772
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1549809484870850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0153a4866771caa4c92490e085978258, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114991271618438900
 MonoBehaviour:
   m_ObjectHideFlags: 1

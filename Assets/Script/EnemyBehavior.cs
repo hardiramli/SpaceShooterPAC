@@ -39,6 +39,18 @@ public class EnemyBehavior : MonoBehaviour {
 	}
 
 	void Destroyed(){
+		OnDestroy ();
 		Destroy (gameObject);
+	}
+
+	private void OnDestroy ()
+	{
+		if (transform.parent != null) // if object has a parent
+		{
+			if (transform.childCount <= 1) // if this object is the last child
+			{
+				Destroy (transform.parent.gameObject, 0.1f); // destroy parent a few frames later
+			}
+		}
 	}
 }
