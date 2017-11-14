@@ -13,7 +13,7 @@ public class Player2Control : MonoBehaviour {
 	public bool stunned;
 	public Rigidbody2D rb2d;
 
-	public int health = 1;
+	public int health = 10;
 
 	private float nextFire;
 	private float stunTime;
