@@ -167,9 +167,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
+  player1: {fileID: 0}
+  player2: {fileID: 0}
   hazardtoP1: {fileID: 1661871791444026, guid: 306f3023f3c1f634aa52503633f42352, type: 2}
   hazardtoP2: {fileID: 1639450944692950, guid: d82fb04c8bdece043a12d2b696e77158, type: 2}
   special: 1
+  hit: 0
 --- !u!114 &114762425037942808
 MonoBehaviour:
   m_ObjectHideFlags: 1

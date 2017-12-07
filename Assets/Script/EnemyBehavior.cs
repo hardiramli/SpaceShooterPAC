@@ -10,6 +10,7 @@ public class EnemyBehavior : MonoBehaviour {
 	public GameObject hazardtoP1;
 	public GameObject hazardtoP2;
 	public bool special;
+	public bool hit;
 
 	void Start(){
 		player1 = GameObject.Find ("Player1");
@@ -18,7 +19,10 @@ public class EnemyBehavior : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.CompareTag ("BulletPlayer")) {
 			Debug.Log ("tes");
-			player1.GetComponent<Player1Control>().addSuper (1);
+			if (!hit) {
+				player1.GetComponent<Player1Control> ().addSuper (1);
+			}
+			hit = true;
 			health--;	
 		} else if (col.CompareTag ("BulletPlayer2")) {
 			Debug.Log ("tes");

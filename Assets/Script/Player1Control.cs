@@ -95,8 +95,17 @@ public class Player1Control : MonoBehaviour {
 	}
 
 	public void addSuper(int n){
-		super += n;
-		SetSuper ();
+		if (super <= 100) {
+			super += n;
+			SetSuper ();
+		}
+	}
+
+	public void useSuper(int n){
+		if (super-n > 0) {
+			super -= n;
+			SetSuper ();
+		}
 	}
 
 	// Destroy game	
